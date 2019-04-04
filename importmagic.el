@@ -204,7 +204,7 @@ seen on https://github.com/alecthomas/importmagic."
       (let ((choice (completing-read (concat "Querying for " symbol ": ")
                                      options
                                      nil
-                                     t
+                                     nil
                                      nil
                                      nil
                                      options)))
